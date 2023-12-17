@@ -242,12 +242,12 @@ void Game::UpdateScore(int linesCleared)
 	else if (score >= 500 && currentLevel == 3) 
 	{
 		currentLevel = 4;
-		moveSpeed = 0.1;
+		moveSpeed = 0.15;
 	}
 	else if (score >= 700 && currentLevel == 4) 
 	{
 		currentLevel = 5;
-		moveSpeed = 0.05;
+		moveSpeed = 0.1;
 	}
 }
 
